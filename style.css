@@ -1,0 +1,136 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY com fundo fixo */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.521)),
+    url("assets/images/woman-code.png");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  color: #fff;
+}
+
+/* ================= HEADER (BANNER) ================= */
+.banner {
+  background-image: url("assets/images/banner.png");
+  background-size: cover;
+  background-position: center;
+
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-content {
+  max-width: 600px;
+}
+
+.banner h1 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.banner p {
+  margin-bottom: 20px;
+}
+
+.banner button {
+  padding: 12px 25px;
+  border: none;
+  background: #00bfff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* ================= MAIN ================= */
+main {
+  background-color: #000; /* fundo para contraste */
+}
+
+/* SEÇÕES */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* CONTEÚDO CENTRALIZADO */
+#course-content,
+#professional-challenges {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* MÓDULOS */
+.modules-list {
+  margin-top: 30px;
+}
+
+.module {
+  background: #111;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+/* ================= SEÇÃO DE IMPACTO ================= */
+#transform-world {
+  background-image: url("assets/images/woman-code.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ================= FOOTER ================= */
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #000;
+}
+
+footer img {
+  margin: 20px 0;
+}
+
+footer a {
+  color: #00bfff;
+}
+.modules-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#transform-world {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+
+
