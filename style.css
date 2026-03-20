@@ -76,15 +76,22 @@ main {
   border-radius: 5px;
   max-width: 400px;
   transition: 0.3s;
+  border-radius: 16px; 
+  border: 1px solid blue;
+}
+
+.module span {
+  color: #00bfff;
 }
 
 button {
-  padding: 12px 25px;
-  border: none;
-  background: #00bfff;
-  color: #fff;
+  padding: 15px 35px; /* aumenta tamanho */
+  border: 1px solid #00bfff; /* borda azul */
+  background: transparent; /* remove fundo azul */
+  color: #00bfff; /* texto azul */
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 8px;
+  font-size: 16px;
   transition: 0.3s;
 }
 
